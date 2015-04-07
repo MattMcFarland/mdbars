@@ -38,7 +38,6 @@ person.name = {{person.name}}
 {{/posts2}}
 
 ## Handlebars Block Helper Test
-
 {{#list people}}
 {{firstName}} {{lastName}}
 {{/list}}
