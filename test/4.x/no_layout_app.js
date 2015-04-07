@@ -13,10 +13,10 @@ var app = express();
 
 // manually set render engine, under normal circumstances this
 // would not be needed as hbs would be installed through npm
-app.engine('hbs', hbs.__express);
+app.engine('mdbars', hbs.__express);
 
 // set the view engine to use handlebars
-app.set('view engine', 'hbs');
+app.set('view engine', 'mdbars');
 app.set('views', __dirname + '/views');
 
 app.set('view options', {

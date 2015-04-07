@@ -31,9 +31,9 @@ app.engine('mdbars', require('mdbars').__express);
 You can subsitute the express generators structure using the same layout system.
 
     /views
-        layout.md
-        index.md
-        users.md
+        layout.hbs
+        index.mdbars
+        users.mdbars
 
 
 ## More Info ##
